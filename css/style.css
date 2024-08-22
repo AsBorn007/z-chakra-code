@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ====Resualble code==== */
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box-content h2{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 39.38px;
+}
+.box-content li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.64px;
+    color: #1B1B1B;
+}
+/*===== key chakra section===== */
+.key-point-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.key-point-container .key-heading{
+    margin: 42px 0px;
+    font-size: 32px;
+    line-height: 38.72px;
+    color:  #1B1B1B;
+    font-weight: 700;
+}
+
+.key-box-content {
+    display: flex;
+    align-items: center;
+    gap: 45.51px;
+    width: 100%;
+    max-width: 81.2%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pattren-box{
+    width: 100%;
+    max-width: 124.48px;
+}
+.keys-box-contianer {
+    width: 100%;
+    max-width: 1042px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5.24px 40.87px 0px #63636329;
+    border-radius: 8px;
+    padding: 29px 0px 30px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.keys-box-contianer::before {
+    content: "";
+    position: absolute;
+    background-image: url("/imgAssets/Vector\ 1597.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62px;
+    height: 182px;
+    left: -63px;
+    top: 100px;
+}
+.no-bg::before {
+    background-image: none;
+}
+.box-content li {
+    list-style-position: inside;
+  }
+
+/* ================== */
+
+.chakra-btn a {
+    display: block;
+    font-weight: 600;
+    line-height: 28.06px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    width: 43.2%;
+    /* height: 71px; */
+    background: #53A973;
+    box-shadow: 0px 7px 16.2px 0px #53A973A1;
+    border-radius: 8px;
+    text-align: center;
+    /* line-height: 50px; */
+    padding: 22px 47px 21px 51px;
+}
+.key-text-container p:nth-child(5) {
+    font-weight: 700;
+    margin: 17px 0 34px;
+}
+.key-text-container p:nth-child(4){
+    font-weight: 500;
+}
+.key-text-container .para-box:nth-child(4), .key-text-container .para-box:nth-child(5) {
+    font-size: 22px;
+    line-height: 40.38px;
+    width: 100%;
+    /* max-width: 628px; */
+    max-width: 96.34%;
+    text-align: left;
+}
+.box-text h2{
+font-size: 22px;
+font-weight: 700;
+line-height: 39.38px;
+text-align: left;
+
+}
+.box-text p{
+font-size: 22px;
+font-weight: 500;
+line-height: 39.38px;
+text-align: left;
+
+}
+.para-flex {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    gap: 3px;
+}
+.para-flex  svg {
+        margin-top: 5px;
+}
+.key-text-container {
+    width: 100%;
+    max-width: 63.3%;
+}
+.box-text {
+    margin-bottom: 35px;
+}
+.key-text-container {
+    width: 100%;
+    max-width: 63.3%;
+    margin: 57px auto 70px;
+}
+/*================ media quaries ===================*/
+@media screen and (max-width:1092px) {
+    .chakra-btn a {
+        width: 52.2%; 
+    }  
+    .keys-box-contianer {
+        max-width: 875px;  
+    }
+    .key-text-container {
+        max-width: 85.3%;
+    }
+}
+  @media screen and (max-width: 992px) {
+    .keys-box-container {
+        max-width: 912px !important;
+    }
+    .keys-box-contianer::before {
+        width: 50px;
+        left: -51px;
+        
+    }
+    .keys-box-contianer {
+        max-width: 792px;
+    }
+    .box-content h2 {
+        font-size: 20px;
+        line-height: 30.38px;
+        margin-bottom: 12px;
+    }
+}
+
+ @media  screen and (max-width:767px) {
+    .box-content h2 {
+        font-size: 18px;
+        line-height: 30.38px;
+    }
+    .key-box-content {
+        gap: 24.51px;
+        max-width: 89.2%;
+    }
+    .box-content {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .box-content li {
+        font-size: 14px;
+    }
+    .keys-box-contianer {
+        max-width: 592px;
+    }
+    .keys-box-contianer::before {
+        width: 35px;
+    }
+    .keys-box-contianer::before {
+        left: -40px;
+       
+    }
+    br{
+        display: none;
+    }
+    .chakra-btn a {
+        width: 54.2%;
+        font-size: 16px;
+    }
+
+ }
+ @media  screen and (max-width:567px) {
+    .box-content h2 {
+        font-size: 15px !important;
+        line-height: 23.25px !important;
+    }
+    .box-content li {
+        font-size: 9.5px !important;
+        line-height: 17.64px !important;
+    }
+    .box-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 4.15px !important;
+    }
+    .pattren-box {
+        width: 100% !important;
+        max-width: 59.15px !important;
+    }
+    .key-box-content {
+        gap: 13.14px !important;
+    }
+    .key-point-container .key-heading {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .keys-box-contianer {
+        max-width: 369px!important;
+    }
+    .keys-box-contianer::before {
+        width: 20px !important;
+        left: -21px !important;
+    }
+    .keys-box-contianer::before {
+        width: 62px;
+        height: 170px;
+        top: 100px;
+    } 
+    .box-text p {
+        font-size: 12.67px;
+        line-height: 22.68px;
+    }
+    .box-text h2 {
+        font-size: 12.67px;
+        line-height: 22.68px;
+    }
+    .key-text-container {
+        padding: 0 16px;
+        max-width: 97%;
+    }
+    .para-flex  svg {
+        width: 12.67px;
+        height: 12.67px;
+    }
+    .key-text-container .para-box:nth-child(4), .key-text-container .para-box:nth-child(5){
+        font-size: 12.67px;
+        line-height: 22.68px;
+    }
+    .chakra-btn a {
+        padding: 15px 0px 16px;
+        font-size: 14.7px;
+        width: 69.99%;
+    }
+    .midify svg{
+        width: 20px;
+        height: 12px;
+    }
+    .midify-2 svg{
+        width: 30px;
+        height: 16px;
+    }
+ }
+ @media screen and (max-width: 420px) {
+    .keys-box-contianer {
+        max-width: 323px!important;
+    }
+    .box-content h2 {
+        font-size: 12px !important;
+        line-height: 17.25px !important;
+    }
+    .box-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 5.15px !important;
+    }
+    .keys-box-contianer {
+        padding: 40px 0px 40px;
+    
+    }
+    .box-content li {
+        font-size: 7.5px !important;
+        line-height: 13.64px !important;
+    }
+    .key-text-container {
+        max-width: 97%;
+    }
+    .key-text-container {
+        max-width: 100%;
+        padding: 0px 16px;
+    }
+    .chakra-btn a {
+        width: 77.9%;
+    }
+}
