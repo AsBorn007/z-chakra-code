@@ -464,9 +464,9 @@ color: #0FB5EF;
         left: -40px;
        
     }
-    br{
+    /* br{
         display: none;
-    }
+    } */
     .chakra-btn a {
         width: 54.2%;
         font-size: 16px;
@@ -617,7 +617,7 @@ color: #0FB5EF;
         font-size: 28px;
         line-height: 45.58px;
     }
-    .description-content-box {
+    .description-content-box { 
         max-width: 67.9%;
         padding: 20px 20px 20px 20px;
     }
@@ -632,6 +632,14 @@ color: #0FB5EF;
         width: 40px;
         left: -40px;    
     }
+    .descripton-container .bundle-section-heading h2 {
+        margin: 29px auto 28px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /* .Bonuses-headings-section h2 br{
+        display: none;
+    } */
  }
  @media screen and (max-width: 420px) {
     .keys-box-contianer {
@@ -671,9 +679,7 @@ color: #0FB5EF;
     .Bonuses-headings-section {
         max-width: 83.4%;
     }
-    br{
-        display: block;
-    }
+
     .Bonuses-headings-section .text {
         font-size: 14px;
         max-width: 100%;
@@ -691,5 +697,8 @@ color: #0FB5EF;
     .description-content-box {
         max-width: 67.9%;
         padding: 30px 30px 30px 30px;
+    }
+    br{
+        display: block !important;
     }
 }
