@@ -153,6 +153,190 @@ text-align: left;
     max-width: 63.3%;
     margin: 57px auto 70px;
 }
+
+
+
+/*===== bounuces sections===== */
+.Bonuses-headings-section {
+    width: 100%;
+    max-width: 916px;
+    max-width: 76.4%;
+    margin: 0 auto;
+    text-align: center;
+}
+.Bonuses-headings-section h2{
+font-size: 42px;
+font-weight: 700;
+line-height: 62.58px;
+text-align: center;
+color: #1B1B1B;
+}
+
+.Bonuses-headings-section .text-highlight{
+    background-color: #53A973;
+}
+.Bonuses-headings-section .price{
+  color: #53A973;
+font-size: 48px;
+font-weight: 700;
+line-height: 71.52px;
+
+}
+.Bonuses-headings-section .total-value{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 62.58px;
+    text-align: center;
+    color: #BBBBBB;
+}
+.Bonuses-headings-section .text {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 39.38px;
+    text-align: center;
+    color: #1B1B1B;
+    width: 100%;
+    max-width: 60.75%;
+    margin: 12px auto 58px;
+}
+.description-content-box .img-box {
+    width: 100%;
+    max-width: 22.8%;
+    position: relative;
+}
+.description-content-box .img-two, 
+.description-content-box .img-three {
+    position: relative;
+}
+
+.description-content-box .img-two::before, .description-content-box .img-three::before {
+    content: "";
+    position: absolute;
+    background-image: url("/imgAssets/Group\ 1597881231.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93px;
+    height: 93px;
+    left: -30px;
+    top: -30px;
+}
+.description-content-box .img-three::before{
+    background-image: url("/imgAssets/Group\ 1597881231\ \(1\).png");
+} 
+.bundle-content-box-four .bundle-img::before{
+    background-image: url("/imgAssets/Group\ 1597881231\ \(5\).png");
+} 
+.bundle-content-box-three .bundle-img::before{
+    background-image: url("/imgAssets/Group\ 1597881231\ \(4\).png");
+} 
+.bundle-content-box-two .bundle-img::before{
+    background-image: url("/imgAssets/Group\ 1597881231\ \(3\).png");
+} 
+.bundle-content-box-one .bundle-img::before{
+    background-image: url("/imgAssets/Group\ 1597881231\ \(2\).png");
+} 
+.description-content-box .text-content-two {
+    width: 100%;
+    max-width: 55%;
+}
+.description-content-box .text-content ul li{
+    list-style-position: inside;
+}
+.description-content-box .text-content-two ul li:last-child,
+.description-content-box .text-content-three ul li:last-child{
+list-style: none;
+}
+.description-content-box .text-content-two ul li:last-child a,
+.description-content-box .text-content-three ul li:last-child a{
+color: #0FB5EF;
+}
+.description-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    width: 100%;
+    max-width: 88.9%;
+    margin: 0 auto;
+    box-shadow: 0px 5.24px 40.87px 0px #63636329;
+    padding: 32px 38px 32px 39px;
+    border-radius: 8px;
+    position: relative;
+}
+.description-content-box::before {
+    content: "";
+    position: absolute;
+    background-image: url("/imgAssets/Vector\ 1597.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62px;
+    height: 260px;
+    left: -62px;
+    top: 120px;
+}
+.description-content-box-two::before {
+    top: 140px;
+}
+
+.description-content-box-three::before {
+    top: 180px;
+}
+.descripton-container .description-content-box:nth-child(2){
+    margin: 40px auto;
+}
+.description-content-box .text-content h2 {
+    width: 100%;
+    max-width: 95%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.04px;
+    text-align: left;
+    color: #1B1B1B;
+    margin-bottom: 5px;
+}
+.description-content-box .text-content  li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.64px;
+    text-align: left;
+    color:  #1B1B1B;
+}
+.bounces-box-price  span:first-child{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #53A973;
+}
+.bounces-box-price  span:nth-child(2){
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.04px;
+}
+
+.descripton-container .bundle-section-heading h2{
+    text-align: center;
+    margin: 67px auto 35px;
+}
+
+.bundle-box-section.text-content h2 {  
+    max-width: 85%; 
+}
+.bundle-box-section:nth-child(even){
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.bundle-content-box-three::before {
+    top: 180px;
+}
+.bundle-content-box-two::before {
+    top: 153px;
+}
+.bundle-content-box-four::before {
+    top: 203px;
+}
+.bundle-content-box-four::before {
+    background-image: none;
+}
 /*================ media quaries ===================*/
 @media screen and (max-width:1092px) {
     .chakra-btn a {
@@ -163,6 +347,35 @@ text-align: left;
     }
     .key-text-container {
         max-width: 85.3%;
+    }
+    .Bonuses-headings-section h2 {
+        font-size: 34px;
+        line-height: 50.58px;
+        
+    }
+    .Bonuses-headings-section .price {
+        font-size: 40px;
+        line-height: 60.52px;
+    }
+    .Bonuses-headings-section .text {
+        font-size: 20px;
+        line-height: 32.38px;
+    }
+    .description-content-box .text-content h2 {
+        max-width: 100%;
+        font-size: 22px;
+        line-height: 26.04px;
+    }
+    .Bonuses-headings-section {
+        max-width: 74.4%;
+    }
+    .description-content-box {
+        gap: 26px;
+        max-width: 82.9%;
+        padding: 32px 20px 32px 20px;
+    }
+    .description-content-box .img-box {
+        max-width: 27.8%;
     }
 }
   @media screen and (max-width: 992px) {
@@ -181,6 +394,46 @@ text-align: left;
         font-size: 20px;
         line-height: 30.38px;
         margin-bottom: 12px;
+    }
+    .description-content-box .text-content h2 {
+        font-size: 16px;
+        line-height: 24.04px;
+    }
+    .description-content-box .text-content h2 {
+        font-size: 16px;
+        line-height: 24.04px;
+    }
+    .description-content-box {
+        gap: 18px;
+        max-width: 74.9%;
+        padding: 7px 34px 8px 34px;
+    }
+    .bundle-box-section:nth-child(even) {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+    .descripton-container .bundle-section-heading h2 {
+        margin: 50px auto 35px;
+    }
+    .description-content-box .img-box {
+        max-width: 34.8%;
+    }
+    .description-content-box::before {
+        top: 177px;
+    }
+    .description-content-box .text-content  li {
+        font-size: 14px;
+        line-height: 26.64px;
+    }
+    .description-content-box .text-content h2 {
+        font-size: 14px;
+        line-height: 22.04px;
+    }
+    .bounces-box-price  span:first-child {
+        font-size: 34px;
+    }
+    .bounces-box-price  span:nth-child(2) {
+        font-size: 20px;
     }
 }
 
@@ -217,6 +470,59 @@ text-align: left;
     .chakra-btn a {
         width: 54.2%;
         font-size: 16px;
+    }
+    .description-content-box {
+        max-width: 76.9%;
+        padding: 12px 20px 12px 20px;
+    }
+    .description-content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .description-content-box .img-box {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .description-content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-content-box::before {
+        top: 477px;
+    }
+    .description-content-box .text-content-two {
+        max-width: 100%;
+    }
+    .bounces-box-price {
+        width: 85%;
+    }
+    .description-content-box .text-content h2 {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .description-content-box .text-content ul li {
+            width: 90%;
+            margin: 0 auto;
+    }
+    .Bonuses-headings-section h2 {
+        font-size: 28px;
+        line-height: 42.58px;
+    }
+    .Bonuses-headings-section .total-value {
+        font-size: 34px;
+        line-height: 50.58px;
+    }
+    .Bonuses-headings-section .price {
+        font-size: 35px;
+    }
+    .Bonuses-headings-section .text {
+        font-size: 20px;
+        max-width: 80.75%;
+    }
+    .description-content-box::before {
+        height: 295px;
     }
 
  }
@@ -290,6 +596,42 @@ text-align: left;
         width: 30px;
         height: 16px;
     }
+    .description-content-box .img-box {
+        max-width: 100%;
+    }
+    .bounces-box-price  span:first-child {
+        font-size: 28px;
+    }
+    .Bonuses-headings-section h2 {
+        font-size: 20px;
+        line-height: 32.58px;
+    }
+    .Bonuses-headings-section .text {
+        font-size: 18px;
+        max-width: 98.75%;
+    }
+    .Bonuses-headings-section .price {
+        font-size: 28px;
+    }
+    .Bonuses-headings-section .total-value {
+        font-size: 28px;
+        line-height: 45.58px;
+    }
+    .description-content-box {
+        max-width: 67.9%;
+        padding: 20px 20px 20px 20px;
+    }
+    .description-content-box .text-content  li {
+        font-size: 12px;
+        line-height: 20.64px;
+    }
+    .description-content-box::before {
+        top: 390px;
+    }
+    .description-content-box::before {
+        width: 40px;
+        left: -40px;    
+    }
  }
  @media screen and (max-width: 420px) {
     .keys-box-contianer {
@@ -321,5 +663,33 @@ text-align: left;
     }
     .chakra-btn a {
         width: 77.9%;
+    }
+    .Bonuses-headings-section h2 {
+        font-size: 24px;
+        line-height: 29.58px;
+    }
+    .Bonuses-headings-section {
+        max-width: 83.4%;
+    }
+    br{
+        display: block;
+    }
+    .Bonuses-headings-section .text {
+        font-size: 14px;
+        max-width: 100%;
+        line-height: 25.06px;
+    }
+    .description-content-box {
+        max-width: 69.9%;
+    }
+    .description-content-box::before {
+        height: 230px;
+        width: 28px;
+        left: -30px;
+        top: 432px;
+    }
+    .description-content-box {
+        max-width: 67.9%;
+        padding: 30px 30px 30px 30px;
     }
 }
